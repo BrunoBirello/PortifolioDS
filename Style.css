@@ -1,0 +1,159 @@
+        body {
+        background-color: #444444;
+        color: #fff;
+    }
+    
+    header {
+        background-color: #333;
+        color: #ffffff;
+        text-align: center;
+        padding: 9rem 0;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-color: #fff;
+    }
+    
+
+    div {
+        font-size: 9rem;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+        color: #65eb75;
+        font-style: italic;
+        font-family: 'PT Sans', sans-serif;
+    }
+    
+    .container {
+        position: relative;
+    }
+
+    .container:after {
+        content: "|";
+        color: #65eb75;
+        animation: blink 1s infinite alternate;
+    }
+    
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+    
+    /* Seção Sobre Mim */
+    #sobre {
+        background-color: #222;
+        color: #ffffff;
+        padding: 4rem 0;
+        font-style: normal;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    div img {
+        float: right;
+        margin-right: 40px;
+        max-width: 40%;
+    }
+    
+    #sobre h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-style: normal;
+        color: #65eb75;
+    }
+    
+    #sobre p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 800px;
+        color: #fff;
+        font-style: normal;
+        overflow: hidden;
+    }
+    
+    /* Seção Projetos */
+    #projetos {
+        background-color: #222;
+        color: #ffffff;
+        padding: 4rem 0;
+        font-style: normal;
+    }
+    
+    #projetos h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-style: normal;
+        color: #65eb75;
+    }
+
+    #projetos p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 800px;
+        color: #fff;
+        font-style: normal;
+    }
+    
+    /* Seção Experiência Profissional */
+    #experiencia {
+        background-color: #222;
+        color: #ffffff;
+        padding: 4rem 0;
+        font-style: normal;
+    }
+    
+    #experiencia h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-style: normal;
+        color: #65eb75;
+    }
+
+    #experiencia p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 800px;
+        color: #fff;
+        font-style: normal;
+    }
+    
+    /* Seção Contato */
+    #contato {
+        background-color: #222;
+        color: #ffffff;
+        padding: 4rem 0;
+        font-style: normal;
+    }
+    
+    #contato h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+        font-style: normal;
+        color: #65eb75;
+    }
+
+    #contato p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 800px;
+        color: #fff;
+        font-style: normal;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #333;
+    }
